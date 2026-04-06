@@ -1,0 +1,16 @@
+[project]
+name = "time-motion-analyzer"
+version = "0.1.0"
+description = "Take-home: Build a LangGraph workflow to analyze a time and motion study"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.4",
+    "langchain>=0.3",
+    "langchain-openai>=0.3",
+    "langchain-anthropic>=0.3",
+    "pydantic>=2.0",
+]
+
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
