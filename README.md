@@ -4,7 +4,7 @@
 
 Build a LangGraph workflow that analyzes a time and motion study report and produces structured output.
 
-You have **1 hour**. Use any AI coding tools available to you (Claude Code, Codex, Copilot, Cursor, etc.). Be prepared to talk through your code in the follow-up interview.
+This should take no longer than **1 hour**. Use any AI coding tools available to you (Claude Code, Codex, Copilot, Cursor, etc.). Be prepared to talk through your code in the follow-up interview.
 
 ## The Problem
 
