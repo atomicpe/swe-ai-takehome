@@ -60,4 +60,4 @@ This is not about volume of code. We value:
 
 ## Submission
 
-Clone this repo, complete the work, and push it to a private GitHub repo. Add [INTERVIEWER_GITHUB_USERNAME] as a collaborator so we can review your submission before the follow-up interview.
+Clone this repo, complete the work, and push it to a private GitHub repo. Add [INTERVIEWER_GITHUB_USERNAME] as a collaborator so we can review your submission before the follow-up interview. This username will be provided to you separately. 
