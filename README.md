@@ -46,9 +46,18 @@ uv sync
 python main.py
 ```
 
-You'll need an API key for at least one LLM provider (OpenAI or Anthropic). Use whichever you're comfortable with. If cost is a concern, smaller models are fine for this task — we're evaluating your pipeline design, not the model's output quality.
+The analyzer uses OpenAI API. Set `OPENAI_API_KEY` in your environment before running it. The model defaults to `gpt-5.5`; override it with `OPENAI_MODEL` if needed. Do not put API keys in source files or commit them.
 
-The output should be the structured data your pipeline produces — printed to stdout or written to a file, your choice. We should be able to see the extracted activities, worker classifications, timing analysis, and efficiency flags. Format is up to you (JSON, formatted text, etc.).
+PowerShell:
+
+```powershell
+$env:OPENAI_API_KEY = "your-api-key"
+python main.py
+```
+
+The result is validated against Pydantic models. Analyses with timing discrepancies or efficiency flags are routed through a second source-grounded review call.
+
+The output is written to `output.json` in the repository root when you run `python main.py`. We should be able to see the extracted activities, worker classifications, timing analysis, and efficiency flags.
 
 ## What We're Looking For
 

@@ -1,0 +1,2473 @@
+{
+  "activities": [
+    {
+      "activity_id": "A1",
+      "day_index": 1,
+      "worker": "Maria Chen",
+      "role": "PCB soldering operator",
+      "task": "Retrieves tools from shared locker and begins soldering at Station 1",
+      "location": "Station 1 (PCB soldering); shared locker area",
+      "start_raw": "7:02 AM",
+      "end_raw": "7:06 AM",
+      "start_minute_of_shift": 2,
+      "end_minute_of_shift": 6,
+      "duration_minutes": 4.0,
+      "evidence": [
+        {
+          "quote": "Operator A (Maria Chen) arrives at Station 1 (PCB soldering). She spends approximately 4 minutes retrieving her tools from the shared locker area... She begins soldering at 7:06 AM.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Morning — Assembly Line Alpha",
+      "confidence": 0.98
+    },
+    {
+      "activity_id": "A2",
+      "day_index": 1,
+      "worker": "Maria Chen",
+      "role": "PCB soldering operator",
+      "task": "Solders batch of 24 PCBs",
+      "location": "Station 1 (PCB soldering)",
+      "start_raw": "7:06 AM",
+      "end_raw": "7:52 AM",
+      "start_minute_of_shift": 6,
+      "end_minute_of_shift": 52,
+      "duration_minutes": 46.0,
+      "evidence": [
+        {
+          "quote": "7:06 AM - 7:52 AM — Maria works through a batch of 24 PCBs. Average time per board is approximately 1.9 minutes.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Morning — Assembly Line Alpha",
+      "confidence": 0.99
+    },
+    {
+      "activity_id": "A3",
+      "day_index": 1,
+      "worker": "David Park",
+      "role": "Component mounting operator",
+      "task": "Waits idle for first batch from Station 1",
+      "location": "Station 2 (component mounting)",
+      "start_raw": "7:15 AM",
+      "end_raw": "7:53 AM",
+      "start_minute_of_shift": 15,
+      "end_minute_of_shift": 53,
+      "duration_minutes": 38.0,
+      "evidence": [
+        {
+          "quote": "He waits idle at his station, checking his phone. He doesn't begin work until 7:53 AM when Maria's first batch arrives.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Morning — Assembly Line Alpha",
+      "confidence": 0.98
+    },
+    {
+      "activity_id": "A4",
+      "day_index": 1,
+      "worker": "David Park",
+      "role": "Component mounting operator",
+      "task": "Mounts components on first batch of 24 boards with mid-batch recalibration stoppage",
+      "location": "Station 2 (component mounting)",
+      "start_raw": "7:53 AM",
+      "end_raw": "8:41 AM",
+      "start_minute_of_shift": 53,
+      "end_minute_of_shift": 101,
+      "duration_minutes": 48.0,
+      "evidence": [
+        {
+          "quote": "7:53 AM - 8:41 AM — David mounts components on the 24 boards. His overall average is 2.0 minutes per board including a 6-minute stoppage at 8:12 AM to recalibrate his placement tool after noticing alignment drift.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Morning — Assembly Line Alpha",
+      "confidence": 0.98
+    },
+    {
+      "activity_id": "A5",
+      "day_index": 1,
+      "worker": "Tomoko Sato",
+      "role": "Quality inspector",
+      "task": "Walk-through inspection of Station 1 solder quality",
+      "location": "Station 1 (PCB soldering)",
+      "start_raw": "8:00 AM",
+      "end_raw": "8:03 AM",
+      "start_minute_of_shift": 60,
+      "end_minute_of_shift": 63,
+      "duration_minutes": 3.0,
+      "evidence": [
+        {
+          "quote": "She spends 3 minutes at Station 1 reviewing Maria's solder quality on the remaining boards. She finds no issues and moves to Station 2.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Morning — Assembly Line Alpha",
+      "confidence": 0.97
+    },
+    {
+      "activity_id": "A6",
+      "day_index": 1,
+      "worker": "Tomoko Sato",
+      "role": "Quality inspector",
+      "task": "Inspects 8 completed boards at Station 2 and sets aside 2 for rework",
+      "location": "Station 2 (component mounting)",
+      "start_raw": "8:05 AM",
+      "end_raw": "8:14 AM",
+      "start_minute_of_shift": 65,
+      "end_minute_of_shift": 74,
+      "duration_minutes": 9.0,
+      "evidence": [
+        {
+          "quote": "8:05 AM - 8:14 AM — Tomoko inspects 8 of David's completed boards. She flags 2 boards with marginal component alignment and sets them aside in the rework bin. This takes her 9 minutes total.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Morning — Assembly Line Alpha",
+      "confidence": 0.99
+    },
+    {
+      "activity_id": "A7",
+      "day_index": 1,
+      "worker": "James Okonkwo",
+      "role": "Material handler",
+      "task": "Delivers raw PCBs to Station 1",
+      "location": "Stockroom to Station 1",
+      "start_raw": "8:15 AM",
+      "end_raw": "8:23 AM",
+      "start_minute_of_shift": 75,
+      "end_minute_of_shift": 83,
+      "duration_minutes": 8.0,
+      "evidence": [
+        {
+          "quote": "He makes the trip from the stockroom (about 60 meters away) carrying one tray of 24 boards. The round trip takes him 8 minutes including loading time.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Morning — Assembly Line Alpha",
+      "confidence": 0.96
+    },
+    {
+      "activity_id": "A8",
+      "day_index": 1,
+      "worker": "James Okonkwo",
+      "role": "Material handler",
+      "task": "Delivers solder wire to Station 1",
+      "location": "Stockroom to Station 1",
+      "start_raw": "8:30 AM",
+      "end_raw": "8:37 AM",
+      "start_minute_of_shift": 90,
+      "end_minute_of_shift": 97,
+      "duration_minutes": 7.0,
+      "evidence": [
+        {
+          "quote": "James makes another trip to bring solder wire to Station 1. Maria mentioned she was running low during his previous delivery, but he had to go back because he could only carry one item at a time. This second trip takes 7 minutes.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Morning — Assembly Line Alpha",
+      "confidence": 0.97
+    },
+    {
+      "activity_id": "A9",
+      "day_index": 1,
+      "worker": "Priya Sharma",
+      "role": "Testing operator",
+      "task": "Idle waiting for completed boards from Station 2",
+      "location": "Station 3 (testing)",
+      "start_raw": "7:00 AM",
+      "end_raw": "8:42 AM",
+      "start_minute_of_shift": 0,
+      "end_minute_of_shift": 102,
+      "duration_minutes": 102.0,
+      "evidence": [
+        {
+          "quote": "Operator C (Priya Sharma) at Station 3 (testing) has been idle since 7:00 AM, waiting for completed boards from Station 2. She receives her first batch of 22 boards (24 minus 2 rework) at 8:42 AM.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Morning — Assembly Line Alpha",
+      "confidence": 0.98
+    },
+    {
+      "activity_id": "A10",
+      "day_index": 1,
+      "worker": "Priya Sharma",
+      "role": "Testing operator",
+      "task": "Tests first batch of 22 boards, with 1 fail sent to reject bin",
+      "location": "Station 3 (testing)",
+      "start_raw": "8:42 AM",
+      "end_raw": "9:37 AM",
+      "start_minute_of_shift": 102,
+      "end_minute_of_shift": 157,
+      "duration_minutes": 55.0,
+      "evidence": [
+        {
+          "quote": "8:42 AM - 9:37 AM — Priya tests boards at approximately 2.5 minutes each. She identifies 1 board that fails the voltage test and places it in the reject bin. She completes 22 boards (21 pass, 1 fail)...",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Morning — Assembly Line Alpha",
+      "confidence": 0.99
+    },
+    {
+      "activity_id": "A11",
+      "day_index": 1,
+      "worker": "Tomoko Sato",
+      "role": "Quality inspector",
+      "task": "Second inspection round at Station 1 and spot-checks Station 3 boards",
+      "location": "Station 1; Station 3",
+      "start_raw": "9:00 AM",
+      "end_raw": "9:16 AM",
+      "start_minute_of_shift": 120,
+      "end_minute_of_shift": 136,
+      "duration_minutes": 16.0,
+      "evidence": [
+        {
+          "quote": "Tomoko begins her second inspection round. She returns to Station 1 and spends 4 minutes reviewing Maria's work. She then walks to Station 3 and spends 12 minutes re-testing 3 of Priya's passed boards as a spot check.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Morning — Assembly Line Alpha",
+      "confidence": 0.98
+    },
+    {
+      "activity_id": "A12",
+      "day_index": 1,
+      "worker": "Luis Fernandez",
+      "role": "Packing operator",
+      "task": "Packs first 21 tested boards; printer jams twice during labeling",
+      "location": "Packing station",
+      "start_raw": "9:15 AM",
+      "end_raw": "9:50 AM",
+      "start_minute_of_shift": 135,
+      "end_minute_of_shift": 170,
+      "duration_minutes": 35.0,
+      "evidence": [
+        {
+          "quote": "He inspects each visually (about 30 seconds per board), places them in anti-static bags, boxes them in sets of 6, and labels each box. His total time for 21 boards is 35 minutes... the label printer jammed twice, costing approximately 4 minutes total.",
+          "section": "Day 1 Observations - Mid-Morning — Packing Area",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Mid-Morning — Packing Area",
+      "confidence": 0.99
+    },
+    {
+      "activity_id": "A13",
+      "day_index": 1,
+      "worker": "Luis Fernandez",
+      "role": "Packing operator",
+      "task": "Reorganizes station and restocks packing materials; idle remainder",
+      "location": "Packing station",
+      "start_raw": "9:50 AM",
+      "end_raw": "10:15 AM",
+      "start_minute_of_shift": 170,
+      "end_minute_of_shift": 195,
+      "duration_minutes": 25.0,
+      "evidence": [
+        {
+          "quote": "9:50 AM - 10:15 AM — Luis has no boards to pack. He reorganizes his station and restocks packing materials, which takes about 10 minutes. He is idle for the remaining 15 minutes.",
+          "section": "Day 1 Observations - Mid-Morning — Packing Area",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Mid-Morning — Packing Area",
+      "confidence": 0.98
+    },
+    {
+      "activity_id": "A14",
+      "day_index": 1,
+      "worker": "James Okonkwo",
+      "role": "Material handler",
+      "task": "Delivers shipping labels to packing area; wrong SKU causes return trip",
+      "location": "Stockroom to packing area",
+      "start_raw": "10:00 AM",
+      "end_raw": "10:18 AM",
+      "start_minute_of_shift": 180,
+      "end_minute_of_shift": 198,
+      "duration_minutes": 18.0,
+      "evidence": [
+        {
+          "quote": "He discovers that the labels he brought are for the wrong product SKU. He returns to the stockroom and comes back with the correct labels at 10:18 AM. Total wasted time: 18 minutes.",
+          "section": "Day 1 Observations - Mid-Morning — Packing Area",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Mid-Morning — Packing Area",
+      "confidence": 0.98
+    },
+    {
+      "activity_id": "A15",
+      "day_index": 1,
+      "worker": "Maria Chen",
+      "role": "PCB soldering operator",
+      "task": "Completes second batch of 24 boards with slower pace due to material issue and break",
+      "location": "Station 1 (PCB soldering)",
+      "start_raw": "7:52 AM",
+      "end_raw": "10:05 AM",
+      "start_minute_of_shift": 52,
+      "end_minute_of_shift": 185,
+      "duration_minutes": 133.0,
+      "evidence": [
+        {
+          "quote": "Maria completes her second batch of 24 boards. She has been working steadily since 7:52 AM with a 15-minute break at 9:15 AM. Effective working time on this batch: approximately 1 hour 58 minutes for 24 boards, or about 4.9 minutes per board — notably slower than her morning pace of 1.9 minutes per board.",
+          "section": "Day 1 Observations - Late Morning — Assembly Line Alpha (continued)",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Late Morning — Assembly Line Alpha (continued)",
+      "confidence": 0.94
+    },
+    {
+      "activity_id": "A16",
+      "day_index": 1,
+      "worker": "David Park",
+      "role": "Component mounting operator",
+      "task": "Starts second batch after catching up to upstream output",
+      "location": "Station 2 (component mounting)",
+      "start_raw": "10:06 AM",
+      "end_raw": null,
+      "start_minute_of_shift": 186,
+      "end_minute_of_shift": null,
+      "duration_minutes": null,
+      "evidence": [
+        {
+          "quote": "David immediately begins his second batch. He's now caught up since Maria's first batch is done.",
+          "section": "Day 1 Observations - Late Morning — Assembly Line Alpha (continued)",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Late Morning — Assembly Line Alpha (continued)",
+      "confidence": 0.82
+    },
+    {
+      "activity_id": "A17",
+      "day_index": 1,
+      "worker": "Tomoko Sato",
+      "role": "Quality inspector",
+      "task": "Discusses solder quality issue and rework need with Maria",
+      "location": "Station 1 (PCB soldering)",
+      "start_raw": "10:30 AM",
+      "end_raw": "10:45 AM",
+      "start_minute_of_shift": 210,
+      "end_minute_of_shift": 225,
+      "duration_minutes": 15.0,
+      "evidence": [
+        {
+          "quote": "She spends 15 minutes discussing the issue with Maria, who says the new solder wire James delivered at 8:30 AM is a different alloy than what she normally uses.",
+          "section": "Day 1 Observations - Late Morning — Assembly Line Alpha (continued)",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Late Morning — Assembly Line Alpha (continued)",
+      "confidence": 0.96
+    },
+    {
+      "activity_id": "A18",
+      "day_index": 1,
+      "worker": "James Okonkwo",
+      "role": "Material handler",
+      "task": "Brings correct solder wire to Station 1",
+      "location": "Stockroom to Station 1",
+      "start_raw": "11:00 AM",
+      "end_raw": "11:12 AM",
+      "start_minute_of_shift": 240,
+      "end_minute_of_shift": 252,
+      "duration_minutes": 12.0,
+      "evidence": [
+        {
+          "quote": "James is asked to bring the correct solder wire. He takes 12 minutes for the round trip.",
+          "section": "Day 1 Observations - Late Morning — Assembly Line Alpha (continued)",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Late Morning — Assembly Line Alpha (continued)",
+      "confidence": 0.98
+    },
+    {
+      "activity_id": "A19",
+      "day_index": 1,
+      "worker": "Maria Chen",
+      "role": "PCB soldering operator",
+      "task": "Resumes soldering with correct wire and completes remaining 8 boards of second batch",
+      "location": "Station 1 (PCB soldering)",
+      "start_raw": "11:12 AM",
+      "end_raw": "11:28 AM",
+      "start_minute_of_shift": 252,
+      "end_minute_of_shift": 268,
+      "duration_minutes": 16.0,
+      "evidence": [
+        {
+          "quote": "Maria resumes soldering with the correct wire. She completes the remaining 8 boards from her second batch by 11:28 AM (2.0 min/board — back to normal pace).",
+          "section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+      "confidence": 0.99
+    },
+    {
+      "activity_id": "A20",
+      "day_index": 1,
+      "worker": "All operators",
+      "role": "Production line operators",
+      "task": "Lunch break; line idle",
+      "location": "Assembly line",
+      "start_raw": "11:30 AM",
+      "end_raw": "12:00 PM",
+      "start_minute_of_shift": 270,
+      "end_minute_of_shift": 300,
+      "duration_minutes": 30.0,
+      "evidence": [
+        {
+          "quote": "11:30 AM - 12:00 PM — Lunch break for all operators. Line is idle.",
+          "section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+      "confidence": 0.99
+    },
+    {
+      "activity_id": "A21",
+      "day_index": 1,
+      "worker": "Maria Chen",
+      "role": "PCB soldering operator",
+      "task": "Begins third batch of soldering",
+      "location": "Station 1 (PCB soldering)",
+      "start_raw": "12:00 PM",
+      "end_raw": "12:50 PM",
+      "start_minute_of_shift": 300,
+      "end_minute_of_shift": 350,
+      "duration_minutes": 50.0,
+      "evidence": [
+        {
+          "quote": "12:00 PM — Maria begins her third batch. ... 12:50 PM — Maria finishes her third batch (24 boards).",
+          "section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+      "confidence": 0.91
+    },
+    {
+      "activity_id": "A22",
+      "day_index": 1,
+      "worker": "Tomoko Sato",
+      "role": "Quality inspector",
+      "task": "Reworks two boards left in rework bin because responsibility was unclear",
+      "location": "Assembly line rework bin / Station area",
+      "start_raw": "12:45 PM",
+      "end_raw": "1:05 PM",
+      "start_minute_of_shift": 285,
+      "end_minute_of_shift": 305,
+      "duration_minutes": 20.0,
+      "evidence": [
+        {
+          "quote": "Tomoko spends 20 minutes re-working them herself, even though rework is not formally part of her quality inspector role.",
+          "section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+      "confidence": 0.98
+    },
+    {
+      "activity_id": "A23",
+      "day_index": 1,
+      "worker": "Karen Walsh",
+      "role": "Shift supervisor",
+      "task": "Walks floor and speaks briefly with operators without intervening",
+      "location": "Assembly floor",
+      "start_raw": "1:15 PM",
+      "end_raw": "1:40 PM",
+      "start_minute_of_shift": 375,
+      "end_minute_of_shift": 400,
+      "duration_minutes": 25.0,
+      "evidence": [
+        {
+          "quote": "Shift Supervisor (Karen Walsh) walks the floor for her afternoon check. She spends approximately 25 minutes observing but doesn't intervene in any activities.",
+          "section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+      "confidence": 0.97
+    },
+    {
+      "activity_id": "A24",
+      "day_index": 1,
+      "worker": "David Park",
+      "role": "Component mounting operator",
+      "task": "Works on third batch while downstream testing catches up",
+      "location": "Station 2 (component mounting)",
+      "start_raw": "2:00 PM",
+      "end_raw": "3:15 PM",
+      "start_minute_of_shift": 420,
+      "end_minute_of_shift": 495,
+      "duration_minutes": 75.0,
+      "evidence": [
+        {
+          "quote": "2:00 PM - 2:45 PM — David is working on his third batch. He's now keeping pace with Maria's output. Priya is testing David's second batch, which arrived late due to the cascading delays.",
+          "section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+          "day_index": 1
+        },
+        {
+          "quote": "3:15 PM — Line winds down. David has 6 boards remaining in his third batch. They will carry over to tomorrow.",
+          "section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+      "confidence": 0.84
+    },
+    {
+      "activity_id": "A25",
+      "day_index": 1,
+      "worker": "James Okonkwo",
+      "role": "Material handler",
+      "task": "Stockroom reconciliation and inventory discrepancy check",
+      "location": "Stockroom",
+      "start_raw": "2:50 PM",
+      "end_raw": "3:15 PM",
+      "start_minute_of_shift": 470,
+      "end_minute_of_shift": 495,
+      "duration_minutes": 25.0,
+      "evidence": [
+        {
+          "quote": "James begins end-of-day stockroom reconciliation. He counts remaining inventory at each station and notes discrepancies: Station 1 has 8 more PCBs than expected... He spends 25 minutes on reconciliation.",
+          "section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+      "confidence": 0.97
+    },
+    {
+      "activity_id": "A26",
+      "day_index": 1,
+      "worker": "Aisha Patel",
+      "role": "Receiving clerk",
+      "task": "Opens dock and prepares for receiving deliveries",
+      "location": "Shipping dock",
+      "start_raw": "7:00 AM",
+      "end_raw": "7:45 AM",
+      "start_minute_of_shift": 0,
+      "end_minute_of_shift": 45,
+      "duration_minutes": 45.0,
+      "evidence": [
+        {
+          "quote": "Receiving Clerk (Aisha Patel) opens the dock. Two deliveries are scheduled: raw materials from supplier Tanaka Components (expected 7:30 AM) and packaging supplies from BoxCo (expected 8:00 AM).",
+          "section": "Day 1 — Warehouse & Shipping Dock - Morning Receiving",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 — Warehouse & Shipping Dock - Morning Receiving",
+      "confidence": 0.95
+    },
+    {
+      "activity_id": "A27",
+      "day_index": 1,
+      "worker": "Aisha Patel",
+      "role": "Receiving clerk",
+      "task": "Counts and inspects Tanaka pallets during unloading with interruptions from phone calls",
+      "location": "Receiving area / dock",
+      "start_raw": "7:45 AM",
+      "end_raw": "8:42 AM",
+      "start_minute_of_shift": 105,
+      "end_minute_of_shift": 162,
+      "duration_minutes": 57.0,
+      "evidence": [
+        {
+          "quote": "Bobby completes all 12 pallets. However, Aisha is only on pallet 9 when Bobby finishes because she had to stop twice to answer phone calls from the front office (totaling about 7 minutes). Bobby waits idle for her to catch up on the last 3 pallets. She finishes at 8:42 AM.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Morning Receiving",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 — Warehouse & Shipping Dock - Morning Receiving",
+      "confidence": 0.98
+    },
+    {
+      "activity_id": "A28",
+      "day_index": 1,
+      "worker": "Robert Kim",
+      "role": "Forklift operator",
+      "task": "Unloads Tanaka delivery pallets to receiving area",
+      "location": "Dock to receiving area",
+      "start_raw": "7:45 AM",
+      "end_raw": "8:33 AM",
+      "start_minute_of_shift": 105,
+      "end_minute_of_shift": 153,
+      "duration_minutes": 48.0,
+      "evidence": [
+        {
+          "quote": "7:45 AM - 8:33 AM — Bobby completes all 12 pallets.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Morning Receiving",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 — Warehouse & Shipping Dock - Morning Receiving",
+      "confidence": 0.99
+    },
+    {
+      "activity_id": "A29",
+      "day_index": 1,
+      "worker": "BoxCo driver",
+      "role": "Truck driver",
+      "task": "Waits in yard because dock bay is occupied",
+      "location": "Yard / dock queue",
+      "start_raw": "8:00 AM",
+      "end_raw": "8:50 AM",
+      "start_minute_of_shift": 120,
+      "end_minute_of_shift": 170,
+      "duration_minutes": 50.0,
+      "evidence": [
+        {
+          "quote": "The BoxCo delivery arrives on time but cannot begin unloading because the Tanaka truck is still at the dock. There's only one dock bay. The BoxCo driver waits in the yard.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Morning Receiving",
+          "day_index": 1
+        },
+        {
+          "quote": "Note: The BoxCo truck waited approximately 50 minutes.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Morning Receiving",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 — Warehouse & Shipping Dock - Morning Receiving",
+      "confidence": 0.98
+    },
+    {
+      "activity_id": "A30",
+      "day_index": 1,
+      "worker": "Robert Kim",
+      "role": "Forklift operator",
+      "task": "Unloads BoxCo delivery pallets",
+      "location": "Dock to receiving area",
+      "start_raw": "8:55 AM",
+      "end_raw": "9:12 AM",
+      "start_minute_of_shift": 175,
+      "end_minute_of_shift": 192,
+      "duration_minutes": 17.0,
+      "evidence": [
+        {
+          "quote": "Unloading begins at 8:55 AM. This delivery is only 4 pallets — Bobby and Aisha complete it by 9:12 AM.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Morning Receiving",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 — Warehouse & Shipping Dock - Morning Receiving",
+      "confidence": 0.98
+    },
+    {
+      "activity_id": "A31",
+      "day_index": 1,
+      "worker": "Robert Kim",
+      "role": "Forklift operator",
+      "task": "Moves received pallets from receiving area to warehouse shelves; takes break midway",
+      "location": "Warehouse aisles / shelves",
+      "start_raw": "9:15 AM",
+      "end_raw": "10:00 AM",
+      "start_minute_of_shift": 195,
+      "end_minute_of_shift": 240,
+      "duration_minutes": 45.0,
+      "evidence": [
+        {
+          "quote": "9:15 AM — Bobby begins moving the received pallets from the receiving area to warehouse shelves. He has 16 pallets total... 9:15 AM - 10:00 AM — Bobby puts away 7 pallets. He then takes a break.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Inventory Putaway",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 — Warehouse & Shipping Dock - Inventory Putaway",
+      "confidence": 0.97
+    },
+    {
+      "activity_id": "A32",
+      "day_index": 1,
+      "worker": "Robert Kim",
+      "role": "Forklift operator",
+      "task": "Puts away 4 lower-shelf pallets while waiting for spotter",
+      "location": "Warehouse shelves",
+      "start_raw": "10:15 AM",
+      "end_raw": "10:39 AM",
+      "start_minute_of_shift": 255,
+      "end_minute_of_shift": 279,
+      "duration_minutes": 24.0,
+      "evidence": [
+        {
+          "quote": "10:15 AM - 10:39 AM — Bobby puts away the 4 pallets that go on lower shelves (no spotter needed), averaging 6 minutes each. He then waits for Aisha to return.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Inventory Putaway",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 — Warehouse & Shipping Dock - Inventory Putaway",
+      "confidence": 0.98
+    },
+    {
+      "activity_id": "A33",
+      "day_index": 1,
+      "worker": "Aisha Patel",
+      "role": "Receiving clerk",
+      "task": "Returns from office and spots high-shelf putaway while updating inventory on tablet",
+      "location": "Warehouse shelves / office",
+      "start_raw": "11:05 AM",
+      "end_raw": "11:45 AM",
+      "start_minute_of_shift": 305,
+      "end_minute_of_shift": 345,
+      "duration_minutes": 40.0,
+      "evidence": [
+        {
+          "quote": "11:05 AM — Aisha returns from the office. Bobby resumes high-shelf putaway with Aisha spotting. However, Aisha is also trying to update the inventory management system on her tablet between placements. This dual-tasking causes Bobby to wait an extra ~2 minutes per pallet while she finishes data entry before getting into spotting position. The 5 high-shelf pallets take 40 minutes total (8 min/pallet vs. the 6 min/pallet baseline).",
+          "section": "Day 1 — Warehouse & Shipping Dock - Inventory Putaway",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 — Warehouse & Shipping Dock - Inventory Putaway",
+      "confidence": 0.98
+    },
+    {
+      "activity_id": "A34",
+      "day_index": 1,
+      "worker": "Nadia Volkov",
+      "role": "Shipping clerk",
+      "task": "Picks items for outbound orders 1-4",
+      "location": "Warehouse / packing bench",
+      "start_raw": "12:30 PM",
+      "end_raw": "1:15 PM",
+      "start_minute_of_shift": 390,
+      "end_minute_of_shift": 435,
+      "duration_minutes": 45.0,
+      "evidence": [
+        {
+          "quote": "12:30 PM - 1:15 PM — Nadia picks items for orders 1-4. Average pick time is 11 minutes per order.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Afternoon — Shipping",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 — Warehouse & Shipping Dock - Afternoon — Shipping",
+      "confidence": 0.99
+    },
+    {
+      "activity_id": "A35",
+      "day_index": 1,
+      "worker": "Nadia Volkov",
+      "role": "Shipping clerk",
+      "task": "Packs and labels orders 1-4; reworks order 2 packaging for special handling",
+      "location": "Packing bench",
+      "start_raw": "1:15 PM",
+      "end_raw": "1:45 PM",
+      "start_minute_of_shift": 435,
+      "end_minute_of_shift": 465,
+      "duration_minutes": 30.0,
+      "evidence": [
+        {
+          "quote": "1:15 PM - 1:45 PM — Nadia packs and labels orders 1-4. Average pack time is 7 minutes per order. She notices order 2 has a special handling instruction (\"fragile — double box\") that wasn't flagged on the pick list. She has to unpack and re-pack it, adding 8 minutes.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Afternoon — Shipping",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 — Warehouse & Shipping Dock - Afternoon — Shipping",
+      "confidence": 0.98
+    },
+    {
+      "activity_id": "A36",
+      "day_index": 1,
+      "worker": "Nadia Volkov",
+      "role": "Shipping clerk",
+      "task": "Picks orders 5-8 and resolves phantom-stock issue by verifying physical inventory",
+      "location": "Warehouse / receiving area / pallet location",
+      "start_raw": "1:50 PM",
+      "end_raw": "2:30 PM",
+      "start_minute_of_shift": 470,
+      "end_minute_of_shift": 510,
+      "duration_minutes": 40.0,
+      "evidence": [
+        {
+          "quote": "Order 6 requires an item that is showing as in-stock in the system but the shelf is empty... Nadia has to walk to the receiving area to verify the item is physically present, find it on a pallet that hasn't been shelved yet... This detour takes 22 minutes.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Afternoon — Shipping",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 — Warehouse & Shipping Dock - Afternoon — Shipping",
+      "confidence": 0.97
+    },
+    {
+      "activity_id": "A37",
+      "day_index": 1,
+      "worker": "Robert Kim",
+      "role": "Forklift operator",
+      "task": "Loads outbound orders onto shipping truck and notes missed consolidation opportunity",
+      "location": "Shipping dock",
+      "start_raw": "3:10 PM",
+      "end_raw": "3:10 PM",
+      "start_minute_of_shift": 550,
+      "end_minute_of_shift": 550,
+      "duration_minutes": 0.0,
+      "evidence": [
+        {
+          "quote": "3:10 PM — Bobby loads the 8 outbound orders onto the shipping truck. He discovers that 2 orders are going to the same destination but were packed in separate boxes.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Afternoon — Shipping",
+          "day_index": 1
+        }
+      ],
+      "source_section": "Day 1 — Warehouse & Shipping Dock - Afternoon — Shipping",
+      "confidence": 0.83
+    },
+    {
+      "activity_id": "A38",
+      "day_index": 2,
+      "worker": "James Okonkwo",
+      "role": "Material handler",
+      "task": "Pre-stages materials at each station before shift start",
+      "location": "Assembly stations",
+      "start_raw": "6:45 AM",
+      "end_raw": "7:00 AM",
+      "start_minute_of_shift": null,
+      "end_minute_of_shift": 0,
+      "duration_minutes": 15.0,
+      "evidence": [
+        {
+          "quote": "James pre-staged materials at each station before the shift, arriving at 6:45 AM. This eliminated the morning tool retrieval trip...",
+          "section": "Day 2 Observations - Morning — Assembly Line Alpha",
+          "day_index": 2
+        }
+      ],
+      "source_section": "Day 2 Observations - Morning — Assembly Line Alpha",
+      "confidence": 0.93
+    },
+    {
+      "activity_id": "A39",
+      "day_index": 2,
+      "worker": "Maria Chen",
+      "role": "PCB soldering operator",
+      "task": "Completes first batch of 24 boards at baseline pace",
+      "location": "Station 1 (PCB soldering)",
+      "start_raw": "7:00 AM",
+      "end_raw": "7:44 AM",
+      "start_minute_of_shift": 0,
+      "end_minute_of_shift": 44,
+      "duration_minutes": 44.0,
+      "evidence": [
+        {
+          "quote": "7:00 AM - 7:44 AM — Maria completes a batch of 24 boards at 1.85 minutes per board.",
+          "section": "Day 2 Observations - Morning — Assembly Line Alpha",
+          "day_index": 2
+        }
+      ],
+      "source_section": "Day 2 Observations - Morning — Assembly Line Alpha",
+      "confidence": 0.99
+    },
+    {
+      "activity_id": "A40",
+      "day_index": 2,
+      "worker": "David Park",
+      "role": "Component mounting operator",
+      "task": "Performs preventive calibration review before starting work",
+      "location": "Station 2 (component mounting)",
+      "start_raw": "7:02 AM",
+      "end_raw": "7:05 AM",
+      "start_minute_of_shift": 2,
+      "end_minute_of_shift": 5,
+      "duration_minutes": 3.0,
+      "evidence": [
+        {
+          "quote": "7:02 AM — David reviews his calibration tool before starting rather than discovering drift mid-batch. This takes 3 minutes but prevents the mid-batch stoppage observed on Day 1.",
+          "section": "Day 2 Observations - Morning — Assembly Line Alpha",
+          "day_index": 2
+        }
+      ],
+      "source_section": "Day 2 Observations - Morning — Assembly Line Alpha",
+      "confidence": 0.97
+    },
+    {
+      "activity_id": "A41",
+      "day_index": 2,
+      "worker": "David Park",
+      "role": "Component mounting operator",
+      "task": "Completes second batch without stoppages",
+      "location": "Station 2 (component mounting)",
+      "start_raw": "7:44 AM",
+      "end_raw": "8:32 AM",
+      "start_minute_of_shift": 44,
+      "end_minute_of_shift": 92,
+      "duration_minutes": 48.0,
+      "evidence": [
+        {
+          "quote": "7:44 AM - 8:32 AM — David completes the batch in 48 minutes (2.0 min/board). No mid-batch stoppages.",
+          "section": "Day 2 Observations - Morning — Assembly Line Alpha",
+          "day_index": 2
+        }
+      ],
+      "source_section": "Day 2 Observations - Morning — Assembly Line Alpha",
+      "confidence": 0.99
+    },
+    {
+      "activity_id": "A42",
+      "day_index": 2,
+      "worker": "Tomoko Sato",
+      "role": "Quality inspector",
+      "task": "Inspects first Day 2 batch; only one marginal alignment defect found",
+      "location": "Assembly line",
+      "start_raw": "8:00 AM",
+      "end_raw": "8:33 AM",
+      "start_minute_of_shift": 60,
+      "end_minute_of_shift": 93,
+      "duration_minutes": 33.0,
+      "evidence": [
+        {
+          "quote": "8:00 AM — Tomoko begins inspection. She finds 0 defects in Maria's batch... and 1 marginal alignment in David's work. Only 1 board pulled for rework.",
+          "section": "Day 2 Observations - Morning — Assembly Line Alpha",
+          "day_index": 2
+        }
+      ],
+      "source_section": "Day 2 Observations - Morning — Assembly Line Alpha",
+      "confidence": 0.95
+    },
+    {
+      "activity_id": "A43",
+      "day_index": 2,
+      "worker": "Priya Sharma",
+      "role": "Testing operator",
+      "task": "Tests 23 boards immediately after handoff",
+      "location": "Station 3 (testing)",
+      "start_raw": "8:33 AM",
+      "end_raw": "9:31 AM",
+      "start_minute_of_shift": 93,
+      "end_minute_of_shift": 151,
+      "duration_minutes": 58.0,
+      "evidence": [
+        {
+          "quote": "8:33 AM — Priya receives 23 boards and begins testing immediately. No idle gap... 8:33 AM - 9:31 AM — Priya tests all 23 boards.",
+          "section": "Day 2 Observations - Morning — Assembly Line Alpha",
+          "day_index": 2
+        }
+      ],
+      "source_section": "Day 2 Observations - Morning — Assembly Line Alpha",
+      "confidence": 0.99
+    },
+    {
+      "activity_id": "A44",
+      "day_index": 2,
+      "worker": "Luis Fernandez",
+      "role": "Packing operator",
+      "task": "Packs 23 boards with no label jams after pre-shift ribbon replacement",
+      "location": "Packing station",
+      "start_raw": "9:30 AM",
+      "end_raw": "10:03 AM",
+      "start_minute_of_shift": 150,
+      "end_minute_of_shift": 183,
+      "duration_minutes": 33.0,
+      "evidence": [
+        {
+          "quote": "9:30 AM — Luis begins packing. He replaced the label printer ribbon before the shift started. No jams. He completes 23 boards in 33 minutes...",
+          "section": "Day 2 Observations - Morning — Assembly Line Alpha",
+          "day_index": 2
+        }
+      ],
+      "source_section": "Day 2 Observations - Morning — Assembly Line Alpha",
+      "confidence": 0.98
+    },
+    {
+      "activity_id": "A45",
+      "day_index": 2,
+      "worker": "Aisha Patel",
+      "role": "Receiving clerk",
+      "task": "Pre-prints receiving documentation and prepares dock",
+      "location": "Dock / office",
+      "start_raw": "7:00 AM",
+      "end_raw": "7:30 AM",
+      "start_minute_of_shift": 0,
+      "end_minute_of_shift": 30,
+      "duration_minutes": 30.0,
+      "evidence": [
+        {
+          "quote": "7:00 AM — Aisha arrives and pre-prints receiving documentation for today's expected deliveries.",
+          "section": "Day 2 — Warehouse Receiving (Day 2)",
+          "day_index": 2
+        }
+      ],
+      "source_section": "Day 2 — Warehouse Receiving (Day 2)",
+      "confidence": 0.96
+    },
+    {
+      "activity_id": "A46",
+      "day_index": 2,
+      "worker": "Robert Kim",
+      "role": "Forklift operator",
+      "task": "Unloads 8 pallets and verifies with Aisha in sync",
+      "location": "Dock / receiving area",
+      "start_raw": "7:30 AM",
+      "end_raw": "8:05 AM",
+      "start_minute_of_shift": 30,
+      "end_minute_of_shift": 65,
+      "duration_minutes": 35.0,
+      "evidence": [
+        {
+          "quote": "7:30 AM — Single delivery today: Tanaka Components, 8 pallets. Arrives on time. Bobby and Aisha work in sync — no phone interruptions. Bobby unloads while Aisha counts. All 8 pallets unloaded and verified by 8:05 AM",
+          "section": "Day 2 — Warehouse Receiving (Day 2)",
+          "day_index": 2
+        }
+      ],
+      "source_section": "Day 2 — Warehouse Receiving (Day 2)",
+      "confidence": 0.99
+    },
+    {
+      "activity_id": "A47",
+      "day_index": 2,
+      "worker": "Robert Kim",
+      "role": "Forklift operator",
+      "task": "Puts away all 8 pallets with real-time spotter support and inventory updates",
+      "location": "Warehouse shelves",
+      "start_raw": "8:10 AM",
+      "end_raw": "8:58 AM",
+      "start_minute_of_shift": 70,
+      "end_minute_of_shift": 118,
+      "duration_minutes": 48.0,
+      "evidence": [
+        {
+          "quote": "8:10 AM — Bobby begins putaway. Aisha accompanies him from the start, handling both spotting and real-time inventory updates. She updates the system as each pallet is placed rather than batching it for later. All 8 pallets put away by 8:58 AM",
+          "section": "Day 2 — Warehouse Receiving (Day 2)",
+          "day_index": 2
+        }
+      ],
+      "source_section": "Day 2 — Warehouse Receiving (Day 2)",
+      "confidence": 0.99
+    },
+    {
+      "activity_id": "A48",
+      "day_index": 2,
+      "worker": "Priya Sharma",
+      "role": "Testing operator",
+      "task": "Fetches replacement test leads herself and boards wait in transfer bin",
+      "location": "Assembly floor to stockroom",
+      "start_raw": "9:30 AM",
+      "end_raw": "9:40 AM",
+      "start_minute_of_shift": 150,
+      "end_minute_of_shift": 160,
+      "duration_minutes": 10.0,
+      "evidence": [
+        {
+          "quote": "Rather than wait for James, she walks to the stockroom herself (5 minute round trip). While she is away, 6 completed boards arrive from Station 2. They sit in the transfer bin untouched for 5 minutes.",
+          "section": "Day 2 Observations - Mid-Morning — A Role Confusion Incident (Day 2)",
+          "day_index": 2
+        }
+      ],
+      "source_section": "Day 2 Observations - Mid-Morning — A Role Confusion Incident (Day 2)",
+      "confidence": 0.96
+    },
+    {
+      "activity_id": "A49",
+      "day_index": 2,
+      "worker": "Robert Kim",
+      "role": "Forklift operator",
+      "task": "Sorts boards by markings without understanding priority convention, causing re-sorting",
+      "location": "Assembly floor / Station 3",
+      "start_raw": "9:35 AM",
+      "end_raw": "9:40 AM",
+      "start_minute_of_shift": 155,
+      "end_minute_of_shift": 160,
+      "duration_minutes": 5.0,
+      "evidence": [
+        {
+          "quote": "Bobby, who has finished his warehouse work, notices the idle boards at Station 3 while walking past the assembly floor on his way to the break room. He is not trained on the testing equipment but begins visually sorting the boards by markings, something he's seen Priya do.",
+          "section": "Day 2 Observations - Mid-Morning — A Role Confusion Incident (Day 2)",
+          "day_index": 2
+        },
+        {
+          "quote": "When Priya returns at 9:40 AM, she discovers Bobby has sorted 3 boards into the wrong priority order based on a marking convention he didn't understand. She has to re-sort them (2 minutes) and re-verify that none were placed in the wrong bin (3 minutes).",
+          "section": "Day 2 Observations - Mid-Morning — A Role Confusion Incident (Day 2)",
+          "day_index": 2
+        }
+      ],
+      "source_section": "Day 2 Observations - Mid-Morning — A Role Confusion Incident (Day 2)",
+      "confidence": 0.97
+    },
+    {
+      "activity_id": "A50",
+      "day_index": 2,
+      "worker": "Tomoko Sato",
+      "role": "Quality inspector",
+      "task": "Pulled away to office to handle customer complaint records",
+      "location": "Office",
+      "start_raw": "10:15 AM",
+      "end_raw": "10:50 AM",
+      "start_minute_of_shift": 195,
+      "end_minute_of_shift": 230,
+      "duration_minutes": 35.0,
+      "evidence": [
+        {
+          "quote": "Karen Walsh asks Tomoko to step away and help with an urgent customer complaint... Tomoko spends 35 minutes pulling records in the office. During this time, Maria completes a batch that goes un-inspected.",
+          "section": "Day 2 Observations - Mid-Morning — A Role Confusion Incident (Day 2)",
+          "day_index": 2
+        }
+      ],
+      "source_section": "Day 2 Observations - Mid-Morning — A Role Confusion Incident (Day 2)",
+      "confidence": 0.98
+    },
+    {
+      "activity_id": "A51",
+      "day_index": 2,
+      "worker": "Tomoko Sato",
+      "role": "Quality inspector",
+      "task": "Retroactively inspects 18 boards that bypassed inspection",
+      "location": "Assembly floor",
+      "start_raw": "10:50 AM",
+      "end_raw": "11:10 AM",
+      "start_minute_of_shift": 230,
+      "end_minute_of_shift": 250,
+      "duration_minutes": 20.0,
+      "evidence": [
+        {
+          "quote": "10:50 AM - 11:10 AM — Tomoko retroactively inspects the 18 boards that bypassed quality. She finds 1 defect.",
+          "section": "Day 2 Observations - Mid-Morning — A Role Confusion Incident (Day 2)",
+          "day_index": 2
+        }
+      ],
+      "source_section": "Day 2 Observations - Mid-Morning — A Role Confusion Incident (Day 2)",
+      "confidence": 0.99
+    },
+    {
+      "activity_id": "A52",
+      "day_index": 2,
+      "worker": "Nadia Volkov",
+      "role": "Shipping clerk",
+      "task": "Pre-walks pick locations to verify stock before picking",
+      "location": "Warehouse / pick locations",
+      "start_raw": "12:30 PM",
+      "end_raw": "1:00 PM",
+      "start_minute_of_shift": 390,
+      "end_minute_of_shift": 420,
+      "duration_minutes": 30.0,
+      "evidence": [
+        {
+          "quote": "12:30 PM - 1:00 PM — Pre-walk verification takes 15 minutes but she identifies one stock discrepancy upfront... She has Aisha correct the inventory record before picking begins.",
+          "section": "Day 2 Observations - Afternoon — Shipping",
+          "day_index": 2
+        }
+      ],
+      "source_section": "Day 2 Observations - Afternoon — Shipping",
+      "confidence": 0.95
+    },
+    {
+      "activity_id": "A53",
+      "day_index": 2,
+      "worker": "Nadia Volkov",
+      "role": "Shipping clerk",
+      "task": "Picks and packs 6 orders without rework or search delays",
+      "location": "Warehouse / packing bench",
+      "start_raw": "1:00 PM",
+      "end_raw": "2:15 PM",
+      "start_minute_of_shift": 420,
+      "end_minute_of_shift": 495,
+      "duration_minutes": 75.0,
+      "evidence": [
+        {
+          "quote": "1:00 PM - 2:15 PM — Nadia picks and packs all 6 orders. Average total time per order is 12 minutes (vs. ~16 minutes on Day 1). No re-work, no searching, no mid-pick surprises.",
+          "section": "Day 2 Observations - Afternoon — Shipping",
+          "day_index": 2
+        }
+      ],
+      "source_section": "Day 2 Observations - Afternoon — Shipping",
+      "confidence": 0.99
+    },
+    {
+      "activity_id": "A54",
+      "day_index": 2,
+      "worker": "Robert Kim",
+      "role": "Forklift operator",
+      "task": "Loads outbound shipments for Day 2",
+      "location": "Shipping dock",
+      "start_raw": "2:30 PM",
+      "end_raw": "2:45 PM",
+      "start_minute_of_shift": 510,
+      "end_minute_of_shift": 525,
+      "duration_minutes": 15.0,
+      "evidence": [
+        {
+          "quote": "2:30 PM — Bobby loads outbound orders. All shipments out by 2:45 PM",
+          "section": "Day 2 Observations - Afternoon — Shipping",
+          "day_index": 2
+        }
+      ],
+      "source_section": "Day 2 Observations - Afternoon — Shipping",
+      "confidence": 0.95
+    }
+  ],
+  "worker_classifications": [
+    {
+      "worker": "Maria Chen",
+      "role": "PCB soldering operator",
+      "station": "Station 1 (PCB soldering)",
+      "activity_ids": [
+        "A1",
+        "A2",
+        "A15",
+        "A19",
+        "A21",
+        "A39"
+      ],
+      "evidence": [
+        {
+          "quote": "Operator A (Maria Chen) arrives at Station 1 (PCB soldering)... She begins soldering...",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        },
+        {
+          "quote": "Maria completes her second batch of 24 boards...",
+          "section": "Day 1 Observations - Late Morning — Assembly Line Alpha (continued)",
+          "day_index": 1
+        },
+        {
+          "quote": "7:00 AM - 7:44 AM — Maria completes a batch of 24 boards...",
+          "section": "Day 2 Observations - Morning — Assembly Line Alpha",
+          "day_index": 2
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "worker": "David Park",
+      "role": "Component mounting operator",
+      "station": "Station 2 (component mounting)",
+      "activity_ids": [
+        "A3",
+        "A4",
+        "A16",
+        "A24",
+        "A40",
+        "A41"
+      ],
+      "evidence": [
+        {
+          "quote": "Operator B (David Park) arrives at Station 2 (component mounting)...",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        },
+        {
+          "quote": "7:44 AM - 8:32 AM — David completes the batch...",
+          "section": "Day 2 Observations - Morning — Assembly Line Alpha",
+          "day_index": 2
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "worker": "Tomoko Sato",
+      "role": "Quality inspector",
+      "station": "Assembly line",
+      "activity_ids": [
+        "A5",
+        "A6",
+        "A11",
+        "A17",
+        "A22",
+        "A42",
+        "A50",
+        "A51"
+      ],
+      "evidence": [
+        {
+          "quote": "Quality Inspector (Tomoko Sato) arrives and begins her first walk-through of the line.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        },
+        {
+          "quote": "Tomoko retroactively inspects the 18 boards that bypassed quality.",
+          "section": "Day 2 Observations - Mid-Morning — A Role Confusion Incident (Day 2)",
+          "day_index": 2
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "worker": "James Okonkwo",
+      "role": "Material handler",
+      "station": "Assembly line / stockroom",
+      "activity_ids": [
+        "A7",
+        "A8",
+        "A14",
+        "A18",
+        "A25",
+        "A38"
+      ],
+      "evidence": [
+        {
+          "quote": "Material Handler (James Okonkwo) brings a new tray of raw PCBs to Station 1.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        },
+        {
+          "quote": "James pre-staged materials at each station before the shift...",
+          "section": "Day 2 Observations - Morning — Assembly Line Alpha",
+          "day_index": 2
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "worker": "Priya Sharma",
+      "role": "Testing operator",
+      "station": "Station 3 (testing)",
+      "activity_ids": [
+        "A9",
+        "A43"
+      ],
+      "evidence": [
+        {
+          "quote": "Operator C (Priya Sharma) at Station 3 (testing) has been idle since 7:00 AM...",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        },
+        {
+          "quote": "8:33 AM — Priya receives 23 boards and begins testing immediately.",
+          "section": "Day 2 Observations - Morning — Assembly Line Alpha",
+          "day_index": 2
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "worker": "Luis Fernandez",
+      "role": "Packing operator",
+      "station": "Packing station",
+      "activity_ids": [
+        "A12",
+        "A44"
+      ],
+      "evidence": [
+        {
+          "quote": "Packer (Luis Fernandez) at the packing station receives the first 21 tested boards.",
+          "section": "Day 1 Observations - Mid-Morning — Packing Area",
+          "day_index": 1
+        },
+        {
+          "quote": "9:30 AM — Luis begins packing.",
+          "section": "Day 2 Observations - Morning — Assembly Line Alpha",
+          "day_index": 2
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "worker": "Aisha Patel",
+      "role": "Receiving clerk",
+      "station": "Shipping dock / warehouse receiving",
+      "activity_ids": [
+        "A26",
+        "A27",
+        "A33",
+        "A45",
+        "A46",
+        "A47"
+      ],
+      "evidence": [
+        {
+          "quote": "Receiving Clerk (Aisha Patel) opens the dock.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Morning Receiving",
+          "day_index": 1
+        },
+        {
+          "quote": "7:00 AM — Aisha arrives and pre-prints receiving documentation...",
+          "section": "Day 2 — Warehouse Receiving (Day 2)",
+          "day_index": 2
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "worker": "Robert Kim",
+      "role": "Forklift operator",
+      "station": "Dock / warehouse shelves",
+      "activity_ids": [
+        "A28",
+        "A30",
+        "A31",
+        "A32",
+        "A37",
+        "A46",
+        "A47",
+        "A49",
+        "A54"
+      ],
+      "evidence": [
+        {
+          "quote": "Forklift Operator (Robert \"Bobby\" Kim)",
+          "section": "Day 1 — Warehouse & Shipping Dock - Morning Receiving",
+          "day_index": 1
+        },
+        {
+          "quote": "Bobby begins putaway.",
+          "section": "Day 2 — Warehouse Receiving (Day 2)",
+          "day_index": 2
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "worker": "BoxCo driver",
+      "role": "Truck driver",
+      "station": "Dock queue / yard",
+      "activity_ids": [
+        "A29"
+      ],
+      "evidence": [
+        {
+          "quote": "The BoxCo delivery arrives on time but cannot begin unloading because the Tanaka truck is still at the dock.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Morning Receiving",
+          "day_index": 1
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "worker": "Nadia Volkov",
+      "role": "Shipping clerk",
+      "station": "Warehouse / packing bench / shipping dock",
+      "activity_ids": [
+        "A34",
+        "A35",
+        "A36",
+        "A52",
+        "A53"
+      ],
+      "evidence": [
+        {
+          "quote": "Shipping Clerk (Nadia Volkov) begins processing outbound orders.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Afternoon — Shipping",
+          "day_index": 1
+        },
+        {
+          "quote": "Nadia begins afternoon shipping.",
+          "section": "Day 2 Observations - Afternoon — Shipping",
+          "day_index": 2
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "worker": "Karen Walsh",
+      "role": "Shift supervisor",
+      "station": "Assembly floor",
+      "activity_ids": [
+        "A23"
+      ],
+      "evidence": [
+        {
+          "quote": "Shift Supervisor (Karen Walsh) walks the floor for her afternoon check.",
+          "section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "worker": "All operators",
+      "role": "Production line operators",
+      "station": "Assembly line",
+      "activity_ids": [
+        "A20"
+      ],
+      "evidence": [
+        {
+          "quote": "Lunch break for all operators. Line is idle.",
+          "section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "confidence": 0.88
+    }
+  ],
+  "timing_checks": [
+    {
+      "timing_check_id": "T1",
+      "activity_ids": [
+        "A2"
+      ],
+      "worker": "Maria Chen",
+      "task": "Batch soldering duration",
+      "status": "consistent",
+      "stated_duration_minutes": 46.0,
+      "calculated_duration_minutes": 46.0,
+      "details": "7:06 AM to 7:52 AM equals 46 minutes, matching the stated approximate duration and implied pace of about 1.9 min/board for 24 boards.",
+      "evidence": [
+        {
+          "quote": "7:06 AM - 7:52 AM — Maria works through a batch of 24 PCBs. Average time per board is approximately 1.9 minutes.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T2",
+      "activity_ids": [
+        "A4"
+      ],
+      "worker": "David Park",
+      "task": "First batch mounting duration",
+      "status": "consistent",
+      "stated_duration_minutes": 48.0,
+      "calculated_duration_minutes": 48.0,
+      "details": "7:53 AM to 8:41 AM equals 48 minutes, consistent with the stated average of 2.0 minutes per board for 24 boards.",
+      "evidence": [
+        {
+          "quote": "7:53 AM - 8:41 AM — David mounts components on the 24 boards. His overall average is 2.0 minutes per board including a 6-minute stoppage...",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T3",
+      "activity_ids": [
+        "A6"
+      ],
+      "worker": "Tomoko Sato",
+      "task": "Inspection of 8 boards",
+      "status": "consistent",
+      "stated_duration_minutes": 9.0,
+      "calculated_duration_minutes": 9.0,
+      "details": "8:05 AM to 8:14 AM equals 9 minutes as stated.",
+      "evidence": [
+        {
+          "quote": "8:05 AM - 8:14 AM — Tomoko inspects 8 of David's completed boards... This takes her 9 minutes total.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T4",
+      "activity_ids": [
+        "A10"
+      ],
+      "worker": "Priya Sharma",
+      "task": "Testing first batch of boards",
+      "status": "consistent",
+      "stated_duration_minutes": 55.0,
+      "calculated_duration_minutes": 55.0,
+      "details": "8:42 AM to 9:37 AM equals 55 minutes, matching the stated batch duration and the reported throughput of approximately 2.5 minutes per board for 22 boards.",
+      "evidence": [
+        {
+          "quote": "8:42 AM - 9:37 AM — Priya tests boards at approximately 2.5 minutes each.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T5",
+      "activity_ids": [
+        "A12"
+      ],
+      "worker": "Luis Fernandez",
+      "task": "Packing first 21 tested boards",
+      "status": "consistent",
+      "stated_duration_minutes": 35.0,
+      "calculated_duration_minutes": 35.0,
+      "details": "9:15 AM to 9:50 AM equals 35 minutes, matching the stated total.",
+      "evidence": [
+        {
+          "quote": "His total time for 21 boards is 35 minutes, finishing at 9:50 AM.",
+          "section": "Day 1 Observations - Mid-Morning — Packing Area",
+          "day_index": 1
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T6",
+      "activity_ids": [
+        "A15"
+      ],
+      "worker": "Maria Chen",
+      "task": "Second batch effective working time",
+      "status": "inconsistent",
+      "stated_duration_minutes": 118.0,
+      "calculated_duration_minutes": 133.0,
+      "details": "The source gives both an elapsed wall-clock span from 7:52 AM to 10:05 AM (133 minutes) and a separate effective working time of about 1 hour 58 minutes (118 minutes) after excluding the 15-minute break at 9:15 AM. These are different measures, so the discrepancy should be preserved as measure mismatch rather than reconciled.",
+      "evidence": [
+        {
+          "quote": "She has been working steadily since 7:52 AM with a 15-minute break at 9:15 AM. Effective working time on this batch: approximately 1 hour 58 minutes for 24 boards...",
+          "section": "Day 1 Observations - Late Morning — Assembly Line Alpha (continued)",
+          "day_index": 1
+        },
+        {
+          "quote": "10:05 AM — Maria completes her second batch of 24 boards.",
+          "section": "Day 1 Observations - Late Morning — Assembly Line Alpha (continued)",
+          "day_index": 1
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T7",
+      "activity_ids": [
+        "A18"
+      ],
+      "worker": "James Okonkwo",
+      "task": "Correct solder wire trip",
+      "status": "consistent",
+      "stated_duration_minutes": 12.0,
+      "calculated_duration_minutes": 12.0,
+      "details": "11:00 AM to 11:12 AM equals 12 minutes as stated.",
+      "evidence": [
+        {
+          "quote": "James is asked to bring the correct solder wire. He takes 12 minutes for the round trip.",
+          "section": "Day 1 Observations - Late Morning — Assembly Line Alpha (continued)",
+          "day_index": 1
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T8",
+      "activity_ids": [
+        "A22"
+      ],
+      "worker": "Tomoko Sato",
+      "task": "Rework of two boards",
+      "status": "consistent",
+      "stated_duration_minutes": 20.0,
+      "calculated_duration_minutes": 20.0,
+      "details": "12:45 PM to 1:05 PM equals 20 minutes as stated.",
+      "evidence": [
+        {
+          "quote": "Tomoko spends 20 minutes re-working them herself...",
+          "section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T9",
+      "activity_ids": [
+        "A27",
+        "A28"
+      ],
+      "worker": "Aisha Patel",
+      "task": "Tanaka unloading parallel work",
+      "status": "uncertain",
+      "stated_duration_minutes": 57.0,
+      "calculated_duration_minutes": 57.0,
+      "details": "The notes indicate Bobby finished at 8:33 AM and Aisha finished at 8:42 AM; from 7:45 AM to 8:42 AM is 57 minutes. The text also says Aisha was on pallet 9 when Bobby finished, with two phone interruptions totaling about 7 minutes. Timing is plausible, but the exact split between active counting and interruptions is approximate.",
+      "evidence": [
+        {
+          "quote": "7:45 AM - 8:33 AM — Bobby completes all 12 pallets. However, Aisha is only on pallet 9 when Bobby finishes because she had to stop twice to answer phone calls... She finishes at 8:42 AM.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Morning Receiving",
+          "day_index": 1
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T10",
+      "activity_ids": [
+        "A31"
+      ],
+      "worker": "Robert Kim",
+      "task": "Initial putaway segment",
+      "status": "consistent",
+      "stated_duration_minutes": 45.0,
+      "calculated_duration_minutes": 45.0,
+      "details": "9:15 AM to 10:00 AM equals 45 minutes as stated.",
+      "evidence": [
+        {
+          "quote": "9:15 AM - 10:00 AM — Bobby puts away 7 pallets. He then takes a break.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Inventory Putaway",
+          "day_index": 1
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T11",
+      "activity_ids": [
+        "A32"
+      ],
+      "worker": "Robert Kim",
+      "task": "Lower-shelf putaway segment",
+      "status": "consistent",
+      "stated_duration_minutes": 24.0,
+      "calculated_duration_minutes": 24.0,
+      "details": "10:15 AM to 10:39 AM equals 24 minutes as stated.",
+      "evidence": [
+        {
+          "quote": "10:15 AM - 10:39 AM — Bobby puts away the 4 pallets that go on lower shelves...",
+          "section": "Day 1 — Warehouse & Shipping Dock - Inventory Putaway",
+          "day_index": 1
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T12",
+      "activity_ids": [
+        "A33"
+      ],
+      "worker": "Aisha Patel",
+      "task": "High-shelf putaway spotting with inventory updates",
+      "status": "consistent",
+      "stated_duration_minutes": 40.0,
+      "calculated_duration_minutes": 40.0,
+      "details": "11:05 AM to 11:45 AM equals 40 minutes as stated.",
+      "evidence": [
+        {
+          "quote": "The 5 high-shelf pallets take 40 minutes total (8 min/pallet vs. the 6 min/pallet baseline).",
+          "section": "Day 1 — Warehouse & Shipping Dock - Inventory Putaway",
+          "day_index": 1
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T13",
+      "activity_ids": [
+        "A35"
+      ],
+      "worker": "Nadia Volkov",
+      "task": "Packing orders 1-4",
+      "status": "consistent",
+      "stated_duration_minutes": 30.0,
+      "calculated_duration_minutes": 30.0,
+      "details": "1:15 PM to 1:45 PM equals 30 minutes as stated, with special-handling rework included.",
+      "evidence": [
+        {
+          "quote": "1:15 PM - 1:45 PM — Nadia packs and labels orders 1-4.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Afternoon — Shipping",
+          "day_index": 1
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T14",
+      "activity_ids": [
+        "A36"
+      ],
+      "worker": "Nadia Volkov",
+      "task": "Picking orders 5-8 with stock discrepancy detour",
+      "status": "uncertain",
+      "stated_duration_minutes": 40.0,
+      "calculated_duration_minutes": 40.0,
+      "details": "1:50 PM to 2:30 PM equals 40 minutes total. The description isolates a 22-minute detour within that block, but the remaining time for the other orders is not individually broken out.",
+      "evidence": [
+        {
+          "quote": "1:50 PM — Nadia begins picking orders 5-8... This detour takes 22 minutes.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Afternoon — Shipping",
+          "day_index": 1
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T15",
+      "activity_ids": [
+        "A40"
+      ],
+      "worker": "David Park",
+      "task": "Preventive calibration review",
+      "status": "consistent",
+      "stated_duration_minutes": 3.0,
+      "calculated_duration_minutes": 3.0,
+      "details": "7:02 AM to 7:05 AM equals 3 minutes as stated.",
+      "evidence": [
+        {
+          "quote": "7:02 AM — David reviews his calibration tool before starting... This takes 3 minutes",
+          "section": "Day 2 Observations - Morning — Assembly Line Alpha",
+          "day_index": 2
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T16",
+      "activity_ids": [
+        "A41"
+      ],
+      "worker": "David Park",
+      "task": "Second batch without stoppages",
+      "status": "consistent",
+      "stated_duration_minutes": 48.0,
+      "calculated_duration_minutes": 48.0,
+      "details": "7:44 AM to 8:32 AM equals 48 minutes as stated.",
+      "evidence": [
+        {
+          "quote": "7:44 AM - 8:32 AM — David completes the batch in 48 minutes",
+          "section": "Day 2 Observations - Morning — Assembly Line Alpha",
+          "day_index": 2
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T17",
+      "activity_ids": [
+        "A42"
+      ],
+      "worker": "Tomoko Sato",
+      "task": "Day 2 inspection segment",
+      "status": "uncertain",
+      "stated_duration_minutes": 33.0,
+      "calculated_duration_minutes": 33.0,
+      "details": "The text says Tomoko begins inspection at 8:00 AM and at 8:33 AM Priya receives 23 boards; this suggests a 33-minute window, but the exact end point of Tomoko's inspection segment is inferred from the next event rather than explicitly stated.",
+      "evidence": [
+        {
+          "quote": "8:00 AM — Tomoko begins inspection... 8:33 AM — Priya receives 23 boards and begins testing immediately.",
+          "section": "Day 2 Observations - Morning — Assembly Line Alpha",
+          "day_index": 2
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T18",
+      "activity_ids": [
+        "A46"
+      ],
+      "worker": "Robert Kim",
+      "task": "Day 2 unloading",
+      "status": "consistent",
+      "stated_duration_minutes": 35.0,
+      "calculated_duration_minutes": 35.0,
+      "details": "7:30 AM to 8:05 AM equals 35 minutes as stated.",
+      "evidence": [
+        {
+          "quote": "All 8 pallets unloaded and verified by 8:05 AM (35 minutes vs. 57 minutes for 12 pallets on Day 1...",
+          "section": "Day 2 — Warehouse Receiving (Day 2)",
+          "day_index": 2
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T19",
+      "activity_ids": [
+        "A47"
+      ],
+      "worker": "Robert Kim",
+      "task": "Day 2 putaway",
+      "status": "consistent",
+      "stated_duration_minutes": 48.0,
+      "calculated_duration_minutes": 48.0,
+      "details": "8:10 AM to 8:58 AM equals 48 minutes as stated.",
+      "evidence": [
+        {
+          "quote": "All 8 pallets put away by 8:58 AM (6 min/pallet, consistent baseline — no dual-tasking delays).",
+          "section": "Day 2 — Warehouse Receiving (Day 2)",
+          "day_index": 2
+        }
+      ]
+    },
+    {
+      "timing_check_id": "T20",
+      "activity_ids": [
+        "A49"
+      ],
+      "worker": "Robert Kim",
+      "task": "Unauthorized sorting assist at Station 3",
+      "status": "consistent",
+      "stated_duration_minutes": 5.0,
+      "calculated_duration_minutes": 5.0,
+      "details": "9:35 AM to 9:40 AM equals 5 minutes, matching the narrative that Bobby's sorting assistance was corrected by Priya when she returned.",
+      "evidence": [
+        {
+          "quote": "When Priya returns at 9:40 AM, she discovers Bobby has sorted 3 boards into the wrong priority order... She has to re-sort them (2 minutes) and re-verify... (3 minutes). Bobby's well-intentioned help cost 5 minutes net.",
+          "section": "Day 2 Observations - Mid-Morning — A Role Confusion Incident (Day 2)",
+          "day_index": 2
+        }
+      ]
+    }
+  ],
+  "efficiency_flags": [
+    {
+      "flag_id": "F1",
+      "issue_type": "upstream wait",
+      "severity": "high",
+      "description": "Priya Sharma at Station 3 was idle from the start of shift until the first completed boards arrived from Station 2 on Day 1, creating a long upstream-dependent wait that delayed testing output.",
+      "workers": [
+        "Priya Sharma"
+      ],
+      "activity_ids": [
+        "A9"
+      ],
+      "time_window_raw": "7:00 AM to 8:42 AM",
+      "evidence": [
+        {
+          "quote": "Operator C (Priya Sharma) at Station 3 (testing) has been idle since 7:00 AM, waiting for completed boards from Station 2. She receives her first batch of 22 boards (24 minus 2 rework) at 8:42 AM.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        },
+        {
+          "quote": "Priya at Station 3 experienced the longest idle time on Day 1 (1 hour 42 minutes) due to upstream delays cascading.",
+          "section": "Observer Notes - Assembly Floor",
+          "day_index": null
+        }
+      ],
+      "likely_cause": "Station 3 is hard-dependent on Station 2 output, and the upstream handoff on Day 1 was delayed by earlier station timing and rework, leaving no WIP buffer at testing start.",
+      "recommendation": "Reduce the upstream-to-downstream handoff delay by balancing station pacing and considering smaller transfer lots or a modest WIP buffer between Station 2 and Station 3."
+    },
+    {
+      "flag_id": "F2",
+      "issue_type": "tool retrieval delay",
+      "severity": "medium",
+      "description": "Maria lost about 4 minutes at shift start retrieving tools from a shared locker located far from Station 1 before beginning soldering.",
+      "workers": [
+        "Maria Chen"
+      ],
+      "activity_ids": [
+        "A1"
+      ],
+      "time_window_raw": "7:02 AM - 7:06 AM",
+      "evidence": [
+        {
+          "quote": "She spends approximately 4 minutes retrieving her tools from the shared locker area, which is located at the far end of the floor, roughly 45 meters from her station.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "likely_cause": "Frequently used tools were stored in a shared locker area at the far end of the floor rather than at point of use.",
+      "recommendation": "Move frequently used tools to point-of-use storage at Station 1, or provide a station-side tool kit to eliminate the retrieval walk."
+    },
+    {
+      "flag_id": "F3",
+      "issue_type": "calibration stoppage",
+      "severity": "medium",
+      "description": "David Park had a 6-minute mid-batch pause during the first Day 1 mounting run to recalibrate his placement tool after noticing alignment drift.",
+      "workers": [
+        "David Park"
+      ],
+      "activity_ids": [
+        "A4"
+      ],
+      "time_window_raw": "8:12 AM within 7:53 AM - 8:41 AM",
+      "evidence": [
+        {
+          "quote": "His overall average is 2.0 minutes per board including a 6-minute stoppage at 8:12 AM to recalibrate his placement tool after noticing alignment drift.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "likely_cause": "Placement tool alignment drift during the batch.",
+      "recommendation": "Use the Day 2 preventive calibration check before starting Station 2 work to reduce the chance of mid-batch stoppages."
+    },
+    {
+      "flag_id": "F4",
+      "issue_type": "waiting for materials",
+      "severity": "medium",
+      "description": "Maria’s work was interrupted because the solder wire delivered earlier was the wrong alloy, leaving her idle until correct material arrived.",
+      "workers": [
+        "Maria Chen",
+        "James Okonkwo"
+      ],
+      "activity_ids": [
+        "A17",
+        "A18",
+        "A19"
+      ],
+      "time_window_raw": "10:45 AM to 11:12 AM",
+      "evidence": [
+        {
+          "quote": "Maria says the new solder wire James delivered at 8:30 AM is a different alloy than what she normally uses.",
+          "section": "Day 1 Observations - Late Morning — Assembly Line Alpha (continued)",
+          "day_index": 1
+        },
+        {
+          "quote": "Maria has been idle since 10:45 AM waiting for the correct materials.",
+          "section": "Day 1 Observations - Late Morning — Assembly Line Alpha (continued)",
+          "day_index": 1
+        }
+      ],
+      "likely_cause": "The first solder-wire delivery was incorrect, so Maria had to stop while James fetched the proper wire.",
+      "recommendation": "Verify material type at delivery and add a simple handoff check so the operator receives the correct wire before resuming work."
+    },
+    {
+      "flag_id": "F5",
+      "issue_type": "ambiguous rework ownership",
+      "severity": "high",
+      "description": "Two boards flagged for rework on Day 1 remained in the rework bin for nearly 5 hours before Tomoko cleared them herself, because neither Maria nor David treated the rework as their responsibility and no handoff process was defined.",
+      "workers": [
+        "Tomoko Sato",
+        "Maria Chen",
+        "David Park"
+      ],
+      "activity_ids": [
+        "A6",
+        "A22"
+      ],
+      "time_window_raw": "8:05 AM to 12:45 PM",
+      "evidence": [
+        {
+          "quote": "The boards have been sitting for nearly 5 hours. Tomoko spends 20 minutes re-working them herself, even though rework is not formally part of her quality inspector role.",
+          "section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+          "day_index": 1
+        },
+        {
+          "quote": "David says rework isn't his responsibility; Maria says she wasn't told about them.",
+          "section": "Day 1 Observations - Afternoon — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "likely_cause": "The process lacks an explicit rework owner and a clear notification/hand-off path from inspection to the responsible operator.",
+      "recommendation": "Assign a named owner for rework, add a visible rework queue with status tracking, and require an explicit handoff so flagged boards cannot sit unattended."
+    },
+    {
+      "flag_id": "F6",
+      "issue_type": "printer jam",
+      "severity": "medium",
+      "description": "The label printer jammed twice during Luis Fernandez's Day 1 packing run, adding about 4 minutes of delay.",
+      "workers": [
+        "Luis Fernandez"
+      ],
+      "activity_ids": [
+        "A12"
+      ],
+      "time_window_raw": "9:15 AM - 9:50 AM",
+      "evidence": [
+        {
+          "quote": "the label printer jammed twice, costing approximately 4 minutes total.",
+          "section": "Day 1 Observations - Mid-Morning — Packing Area",
+          "day_index": 1
+        }
+      ],
+      "likely_cause": "Printer/ribbon maintenance issue at the packing station; the source notes this was a recurring maintenance item.",
+      "recommendation": "Check the label printer and ribbon before the shift and address recurring jams through preventive maintenance or replacement if the issue persists."
+    },
+    {
+      "flag_id": "F7",
+      "issue_type": "wrong sku labels",
+      "severity": "high",
+      "description": "James delivered packing labels for the wrong SKU, forcing a return trip to the stockroom and causing 18 minutes of lost time before the correct labels arrived.",
+      "workers": [
+        "James Okonkwo"
+      ],
+      "activity_ids": [
+        "A14"
+      ],
+      "time_window_raw": "10:00 AM - 10:18 AM",
+      "evidence": [
+        {
+          "quote": "He discovers that the labels he brought are for the wrong product SKU. He returns to the stockroom and comes back with the correct labels at 10:18 AM. Total wasted time: 18 minutes.",
+          "section": "Day 1 Observations - Mid-Morning — Packing Area",
+          "day_index": 1
+        }
+      ],
+      "likely_cause": "Label fulfillment or pre-transport verification failure; the wrong SKU was selected before delivery.",
+      "recommendation": "Verify SKU against the packing order before leaving the stockroom, and use a handoff checklist for outbound labels."
+    },
+    {
+      "flag_id": "F8",
+      "issue_type": "single-item carrier constraint",
+      "severity": "medium",
+      "description": "James had to make separate deliveries because he could only carry one item at a time, forcing an extra round trip for solder wire after the PCB delivery.",
+      "workers": [
+        "James Okonkwo"
+      ],
+      "activity_ids": [
+        "A7",
+        "A8"
+      ],
+      "time_window_raw": "8:15 AM and 8:30 AM",
+      "evidence": [
+        {
+          "quote": "Maria mentioned she was running low during his previous delivery, but he had to go back because he could only carry one item at a time. This second trip takes 7 minutes.",
+          "section": "Day 1 Observations - Morning — Assembly Line Alpha",
+          "day_index": 1
+        }
+      ],
+      "likely_cause": "Limited carrying capacity and no cart or multi-bin carrier available for combining compatible station deliveries.",
+      "recommendation": "Provide a cart or multi-bin carrier so James can consolidate compatible deliveries and reduce redundant trips."
+    },
+    {
+      "flag_id": "F9",
+      "issue_type": "single dock bottleneck",
+      "severity": "high",
+      "description": "The single dock bay caused BoxCo to wait while Tanaka unloading occupied the dock, delaying the second delivery until the first truck departed.",
+      "workers": [
+        "BoxCo driver",
+        "Aisha Patel",
+        "Robert Kim"
+      ],
+      "activity_ids": [
+        "A29",
+        "A28",
+        "A30"
+      ],
+      "time_window_raw": "8:00 AM - 8:50 AM",
+      "evidence": [
+        {
+          "quote": "The BoxCo delivery arrives on time but cannot begin unloading because the Tanaka truck is still at the dock. There's only one dock bay.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Morning Receiving",
+          "day_index": 1
+        },
+        {
+          "quote": "The BoxCo truck waited approximately 50 minutes.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Morning Receiving",
+          "day_index": 1
+        }
+      ],
+      "likely_cause": "Limited dock capacity combined with overlapping inbound delivery schedules.",
+      "recommendation": "Use scheduled delivery windows or add dock capacity if inbound volume regularly exceeds one bay's throughput."
+    },
+    {
+      "flag_id": "F10",
+      "issue_type": "spotter unavailable",
+      "severity": "medium",
+      "description": "Bobby had to pause high-shelf putaway until Aisha returned to spot, because company policy requires a spotter for placements above 3 meters. The delay was driven by Aisha being away on office paperwork, not by the putaway task itself.",
+      "workers": [
+        "Robert Kim",
+        "Aisha Patel"
+      ],
+      "activity_ids": [
+        "A32",
+        "A33"
+      ],
+      "time_window_raw": "10:15 AM to 11:05 AM",
+      "evidence": [
+        {
+          "quote": "Aisha has left the warehouse floor to process receiving paperwork in the office. Bobby now has no spotter for the high-shelf placements. Company policy requires a spotter for any placement above 3 meters.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Inventory Putaway",
+          "day_index": 1
+        },
+        {
+          "quote": "He then waits for Aisha to return.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Inventory Putaway",
+          "day_index": 1
+        }
+      ],
+      "likely_cause": "Aisha was away processing office paperwork, leaving no qualified spotter available for the high-shelf pallets.",
+      "recommendation": "Keep a backup spotter available or sequence office paperwork so it does not overlap with high-shelf putaway."
+    },
+    {
+      "flag_id": "F11",
+      "issue_type": "dual-task slowdown",
+      "severity": "medium",
+      "description": "During Day 1 high-shelf putaway, Aisha split attention between spotting and updating inventory on her tablet, which slowed Bobby's placements and extended the 5-pallet segment to 40 minutes.",
+      "workers": [
+        "Aisha Patel",
+        "Robert Kim"
+      ],
+      "activity_ids": [
+        "A33"
+      ],
+      "time_window_raw": "11:05 AM - 11:45 AM",
+      "evidence": [
+        {
+          "quote": "Aisha is also trying to update the inventory management system on her tablet between placements. This dual-tasking causes Bobby to wait an extra ~2 minutes per pallet while she finishes data entry before getting into spotting position.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Inventory Putaway",
+          "day_index": 1
+        }
+      ],
+      "likely_cause": "Aisha was combining two roles at once: spotting and inventory data entry.",
+      "recommendation": "Keep spotting and inventory updates separate, or require inventory entry only after the high-shelf placements are complete."
+    },
+    {
+      "flag_id": "F12",
+      "issue_type": "mis-shelved inventory",
+      "severity": "high",
+      "description": "A pallet from the Day 1 receiving putaway was later found in the wrong warehouse location, creating a pick delay for Nadia during order fulfillment. The source ties the error to putaway without location verification, not to a confirmed specific shelf level.",
+      "workers": [
+        "Robert Kim",
+        "Aisha Patel",
+        "Nadia Volkov"
+      ],
+      "activity_ids": [
+        "A31",
+        "A34",
+        "A36"
+      ],
+      "time_window_raw": "Day 1 afternoon shipping",
+      "evidence": [
+        {
+          "quote": "Nadia has to walk to the receiving area to verify the item is physically present, find it on a pallet that hasn't been shelved yet (it was on a high shelf pallet that Bobby put away late), and bring it back. This detour takes 22 minutes.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Afternoon — Shipping",
+          "day_index": 1
+        },
+        {
+          "quote": "Bobby's putaway without Aisha verifying locations for the lower-shelf items led to a mis-shelved item that cost Nadia 9 extra minutes during picking.",
+          "section": "Warehouse & Shipping Dock - Observer Notes",
+          "day_index": null
+        }
+      ],
+      "likely_cause": "Putaway location control was incomplete during Day 1 putaway, and inventory updates/verification did not prevent the item from being shelved incorrectly or remaining effectively inaccessible to picking.",
+      "recommendation": "Add a location verification step for putaway and ensure inventory is updated in real time before pick work begins; if scanning is available, use it to confirm shelf location at putaway and during picking."
+    },
+    {
+      "flag_id": "F13",
+      "issue_type": "special-handling missed",
+      "severity": "medium",
+      "description": "Order 2's special handling instruction ('fragile — double box') was not surfaced on the pick list, so Nadia only discovered it during packing and had to unpack and re-pack the order.",
+      "workers": [
+        "Nadia Volkov"
+      ],
+      "activity_ids": [
+        "A35"
+      ],
+      "time_window_raw": "1:15 PM - 1:45 PM",
+      "evidence": [
+        {
+          "quote": "She notices order 2 has a special handling instruction (\"fragile — double box\") that wasn't flagged on the pick list. She has to unpack and re-pack it, adding 8 minutes.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Afternoon — Shipping",
+          "day_index": 1
+        }
+      ],
+      "likely_cause": "Special-handling requirements were not carried forward from order release into the pick list used at packing.",
+      "recommendation": "Ensure special-handling instructions are displayed on the pick list and checked before packing begins so rework is avoided."
+    },
+    {
+      "flag_id": "F14",
+      "issue_type": "inventory system lag",
+      "severity": "high",
+      "description": "Inventory updates were not posted in real time during Day 1 putaway, so Nadia encountered stale stock data and had to verify physical inventory during picking.",
+      "workers": [
+        "Aisha Patel",
+        "Nadia Volkov"
+      ],
+      "activity_ids": [
+        "A33",
+        "A36"
+      ],
+      "time_window_raw": "Day 1 afternoon shipping",
+      "evidence": [
+        {
+          "quote": "Aisha's inventory update from this morning hasn't propagated yet — the Tanaka shipment items are received but the system still shows old quantities.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Afternoon — Shipping",
+          "day_index": 1
+        },
+        {
+          "quote": "Nadia has to walk to the receiving area to verify the item is physically present, find it on a pallet that hasn't been shelved yet... This detour takes 22 minutes.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Afternoon — Shipping",
+          "day_index": 1
+        }
+      ],
+      "likely_cause": "Aisha updated inventory after putaway instead of synchronizing quantities in real time, leaving the system temporarily out of sync with physical stock.",
+      "recommendation": "Require inventory postings during putaway, or at minimum before picking starts, so system quantities match physical stock and prevent verification detours."
+    },
+    {
+      "flag_id": "F15",
+      "issue_type": "same-destination consolidation missed",
+      "severity": "low",
+      "description": "Two Day 1 outbound orders bound for the same destination were loaded as separate boxes instead of being consolidated into one shipment.",
+      "workers": [
+        "Nadia Volkov",
+        "Robert Kim"
+      ],
+      "activity_ids": [
+        "A37"
+      ],
+      "time_window_raw": "3:10 PM",
+      "evidence": [
+        {
+          "quote": "3:10 PM — Bobby loads the 8 outbound orders onto the shipping truck. He discovers that 2 orders are going to the same destination but were packed in separate boxes. He mentions to Nadia that combining them would save shipping costs, but she says the orders came in separately and she follows the pick list as written. The orders ship separately.",
+          "section": "Day 1 — Warehouse & Shipping Dock - Afternoon — Shipping",
+          "day_index": 1
+        }
+      ],
+      "likely_cause": "The process appears to optimize at the order-pick level rather than the shipment level, so consolidation opportunities are not surfaced before loading.",
+      "recommendation": "Add a shipment-level consolidation check before final load-out, and clarify whether identical-destination orders may be combined when packaging requirements allow."
+    },
+    {
+      "flag_id": "F16",
+      "issue_type": "pre-shift staging benefit",
+      "severity": "low",
+      "description": "Day 2 pre-shift preparation reduced or eliminated several morning setup delays: James pre-staged materials at stations, Bobby checked the forklift before unload/putaway, and Luis replaced the label-printer ribbon before packing started.",
+      "workers": [
+        "James Okonkwo",
+        "Robert Kim",
+        "Luis Fernandez"
+      ],
+      "activity_ids": [
+        "A38",
+        "A44",
+        "A45",
+        "A46",
+        "A47"
+      ],
+      "time_window_raw": "Day 2 morning",
+      "evidence": [
+        {
+          "quote": "James pre-staged materials at each station before the shift, arriving at 6:45 AM. This eliminated the morning tool retrieval trip (saving ~4 minutes) and the first material delivery trip.",
+          "section": "Day 2 Observations - Morning — Assembly Line Alpha",
+          "day_index": 2
+        },
+        {
+          "quote": "Bobby checks the forklift and stages empty pallets at the dock.",
+          "section": "Day 2 Observations - Morning — Warehouse Receiving (Day 2)",
+          "day_index": 2
+        },
+        {
+          "quote": "He replaced the label printer ribbon before the shift started. No jams.",
+          "section": "Day 2 Observations - Morning — Assembly Line Alpha",
+          "day_index": 2
+        }
+      ],
+      "likely_cause": "Advance preparation before shift start and pre-use equipment/material readiness checks.",
+      "recommendation": "Formalize pre-shift readiness tasks, clarify which are paid/scheduled, and separate them from line-time measures so the benefit is tracked consistently."
+    },
+    {
+      "flag_id": "F17",
+      "issue_type": "unauthorized role crossover",
+      "severity": "medium",
+      "description": "Robert Kim briefly stepped into Station 3 testing workflow without training on the board-priority convention, which caused Priya to spend 5 minutes undoing and rechecking the sort.",
+      "workers": [
+        "Robert Kim",
+        "Priya Sharma"
+      ],
+      "activity_ids": [
+        "A49"
+      ],
+      "time_window_raw": "9:35 AM - 9:40 AM",
+      "evidence": [
+        {
+          "quote": "He is not trained on the testing equipment but begins visually sorting the boards by markings... When Priya returns at 9:40 AM, she discovers Bobby has sorted 3 boards into the wrong priority order based on a marking convention he didn't understand.",
+          "section": "Day 2 Observations - Mid-Morning — A Role Confusion Incident (Day 2)",
+          "day_index": 2
+        },
+        {
+          "quote": "She has to re-sort them (2 minutes) and re-verify that none were placed in the wrong bin (3 minutes).",
+          "section": "Day 2 Observations - Mid-Morning — A Role Confusion Incident (Day 2)",
+          "day_index": 2
+        }
+      ],
+      "likely_cause": "Untrained ad hoc assistance outside Robert Kim's normal forklift role; the priority marking convention was not self-explanatory.",
+      "recommendation": "Limit cross-role help to personnel trained on the receiving process conventions, or provide a short standardized cue/training before anyone handles Station 3 sorting."
+    },
+    {
+      "flag_id": "F18",
+      "issue_type": "uninspected wip gap",
+      "severity": "high",
+      "description": "Tomoko was pulled away for 35 minutes, and at least 18 boards passed downstream without the normal inspection gate. The source also notes the transfer bin did not separate inspected from uninspected units, creating traceability uncertainty during the gap.",
+      "workers": [
+        "Tomoko Sato",
+        "Maria Chen",
+        "David Park"
+      ],
+      "activity_ids": [
+        "A50",
+        "A51"
+      ],
+      "time_window_raw": "10:15 AM - 11:10 AM",
+      "evidence": [
+        {
+          "quote": "Karen Walsh asks Tomoko to step away and help with an urgent customer complaint... Tomoko spends 35 minutes pulling records in the office. During this time, Maria completes a batch that goes un-inspected. David processes it downstream without the usual quality gate.",
+          "section": "Day 2 Observations - Mid-Morning — A Role Confusion Incident (Day 2)",
+          "day_index": 2
+        },
+        {
+          "quote": "she notes she cannot confirm these boards weren't mixed with previously inspected boards during the gap — the transfer bin doesn't separate inspected from uninspected units.",
+          "section": "Day 2 Observations - Mid-Morning — A Role Confusion Incident (Day 2)",
+          "day_index": 2
+        }
+      ],
+      "likely_cause": "No backup inspector and no physical segregation between inspected and uninspected WIP; Tomoko was also reassigned away from inspection with no temporary coverage.",
+      "recommendation": "Add backup inspection coverage and a physical hold/separation method for uninspected WIP so boards cannot advance without a quality gate."
+    },
+    {
+      "flag_id": "F19",
+      "issue_type": "self-service material fetch",
+      "severity": "low",
+      "description": "Priya left Station 3 to fetch replacement test leads herself while boards accumulated in the transfer bin, creating a brief handoff delay and a short untreated queue.",
+      "workers": [
+        "Priya Sharma"
+      ],
+      "activity_ids": [
+        "A48"
+      ],
+      "time_window_raw": "9:30 AM - 9:40 AM",
+      "evidence": [
+        {
+          "quote": "Rather than wait for James, she walks to the stockroom herself (5 minute round trip). While she is away, 6 completed boards arrive from Station 2. They sit in the transfer bin untouched for 5 minutes.",
+          "section": "Day 2 Observations - Mid-Morning — A Role Confusion Incident (Day 2)",
+          "day_index": 2
+        }
+      ],
+      "likely_cause": "Material handler was on break, and Priya chose to retrieve the needed leads herself rather than wait.",
+      "recommendation": "Use a clear escalation path or temporary backup coverage for urgent replenishment so operators do not leave their stations unless they are trained and authorized to do so."
+    }
+  ],
+  "recommendations": [
+    "Move frequently used tools and materials to point-of-use storage at each station to eliminate locker and retrieval delays.",
+    "Implement preventive calibration checks before production starts, especially at Station 2, to avoid mid-batch stoppages.",
+    "Define a single owner and queue for rework, with visual controls that distinguish rework from normal flow.",
+    "Add SKU and special-handling verification steps before material delivery and before packing/picking begins.",
+    "Provide a cart or multi-bin carrier for the material handler to reduce redundant trips.",
+    "Address the single-dock bottleneck with scheduled delivery windows or additional dock capacity if inbound volume warrants it.",
+    "Keep inventory updates synchronized in real time so physical putaway and system records match before picking starts.",
+    "Formalize backup coverage for quality inspection and require physical segregation of inspected versus uninspected boards.",
+    "Restrict cross-role task help to trained personnel only, or provide quick task-specific training for temporary assistance.",
+    "Consider formalizing effective pre-shift readiness work, including tool setup, printer prep, and material staging, and decide whether it should be paid or scheduled time.",
+    "Move frequently used tools to point-of-use storage at each station to eliminate locker-retrieval delay.",
+    "Restrict cross-role assistance unless the worker is trained on the specific task and conventions.",
+    "Provide a short, standardized convention guide or visual cue set for any temporary cross-role assistance."
+  ],
+  "validation_notes": [
+    "Stable activity IDs were assigned in study order, with Day 1 activities A1-A37 and Day 2 activities A38-A54.",
+    "Minute-of-shift values were calculated relative to the 7:00 AM shift start when times were explicit; pre-shift times on Day 2 were left null where appropriate.",
+    "Some activities span inferred intervals from narrative rather than explicit start/end timestamps; these are marked with lower confidence.",
+    "No worker names, causes, or outcomes were invented beyond the source text; likely causes are limited to what the observer notes support.",
+    "Timing inconsistencies were flagged only where the source text mixed wall-clock elapsed time and effective working time, or where the precise end point had to be inferred from adjacent events.",
+    "Reviewed the upstream-wait cluster against source text and preserved the Day 1 idle interval as the evidence-backed issue.",
+    "Removed A48 from Priya Sharma's classification because it is a brief role-confusion incident, not part of the upstream-wait issue cluster and not needed to ground her primary station role.",
+    "Confirmed the 55-minute timing check for Priya's Day 1 testing batch is consistent with the stated interval and throughput.",
+    "Adjusted the flag description and cause to avoid overstating causality beyond the source; the evidence supports a hard dependency and no buffer, not a quantified root-cause decomposition.",
+    "Confirmed F2 is grounded only in the Day 1 tool-retrieval interval; no additional linked activities were added.",
+    "Preserved Maria's timing evidence as a direct 4-minute retrieval delay; no normalization changes were needed.",
+    "Tightened the likely cause and recommendation to avoid overstating the issue beyond the shared-locker distance described in the study.",
+    "Retained the existing inconsistency note for A15 because the source mixes elapsed wall-clock time and effective working time.",
+    "Reviewed the calibration-stoppage flag against source text and confirmed the 6-minute stoppage is directly stated for David Park's Day 1 first batch.",
+    "Tightened the description and likely cause to match the evidence; removed broader wording that implied a more general equipment reliability problem than the source supports.",
+    "Kept the linked activity and timing window unchanged because they are grounded in the quoted interval and remain evidence-backed.",
+    "Reviewed F4 against source text and confirmed the linked activities and time window are evidence-backed.",
+    "Tightened the description and cause to reflect a wrong-material delivery leading to waiting; no broader causation is asserted.",
+    "Preserved the existing activity linkage to A17, A18, and A19 because the cited interval and quotes support the idle-wait sequence.",
+    "Reviewed F5 against source text; linked activities A6 and A22 are evidence-backed and the nearly 5-hour delay is grounded in the Day 1 narrative.",
+    "Tightened the description and likely cause to avoid implying that the inspector role itself includes rework; the issue is ownership/hand-off ambiguity, not inspector capacity.",
+    "Confirmed no timing normalization change was needed because the source explicitly states the boards had been sitting for nearly 5 hours before Tomoko intervened.",
+    "Reviewed F6 against source text and confirmed the issue is limited to the Day 1 packing run at Luis Fernandez's station.",
+    "Removed the overbroad implication that printer jams alone establish a general equipment reliability problem; the source only supports a recurring maintenance note from observer comments.",
+    "Preserved the existing activity linkage to A12 and verified A44 remains evidence-backed but is not part of the printer-jam issue cluster.",
+    "Confirmed the timing window and 35-minute duration are directly stated and consistent with the source.",
+    "Reviewed F7 against source text and confirmed the issue is grounded in the Day 1 packing-area narrative.",
+    "Preserved activity linkage to A14; no additional activities or workers are supported for this flag.",
+    "Tightened the likely cause to a verification/selection failure and avoided broader claims beyond the source evidence.",
+    "Confirmed the 18-minute loss and time window are explicitly stated in the study text.",
+    "Rechecked F8 against the source: the evidence supports a single-item carrying constraint causing the extra solder-wire trip after the PCB delivery.",
+    "Narrowed the description and likely cause to the explicitly stated constraint; no broader logistics or staffing cause is supported by the text.",
+    "Kept only activity_ids A7 and A8, which are directly tied to the two delivery trips referenced in the study.",
+    "Confirmed F9 is grounded in the source: BoxCo waited because the only dock bay was occupied by Tanaka unloading, with an explicit ~50-minute delay.",
+    "Verified linked activity_ids remain evidence-backed; A28 and A30 support the dock occupancy/unloading context, while A29 captures the waiting delay.",
+    "Tightened the description and likely cause to avoid overstating beyond the source evidence.",
+    "Confirmed F10 is supported by the Day 1 inventory putaway narrative and kept the linked workers and activities unchanged.",
+    "Tightened the description to reflect that the delay was specifically due to spotter absence while Aisha was in the office, without adding unsupported operational causes.",
+    "Verified the 10:15 AM to 11:05 AM window is consistent with the source sequence: Bobby finished lower-shelf putaway at 10:39 AM and resumed high-shelf putaway at 11:05 AM.",
+    "Rechecked F11 against the source text: the slowdown is explicitly tied to Aisha's dual-tasking during high-shelf putaway, not to Bobby's forklift handling itself.",
+    "Removed Robert Kim from the workers list for F11 because the evidence attributes the delay-causing action to Aisha's split attention; Bobby is affected but not the source of the slowdown.",
+    "Kept activity linkage to A33 only, since that activity covers the 11:05 AM–11:45 AM spotting period described in the study.",
+    "Confirmed the 40-minute duration and the ~2 minutes per pallet delay are directly stated in the source.",
+    "Rechecked the flag against source text and narrowed the description to a confirmed mis-shelving / inaccessible-location issue; the evidence does not cleanly support only a lower-shelf error.",
+    "Corrected the activity linkage: A31 is the relevant putaway activity, while A32 is not specifically tied to the mis-shelved item in the source.",
+    "Kept workers as a broader affected set, but the source-backed causal role is limited to Bobby's Day 1 putaway and Aisha's missing verification, with Nadia as the downstream affected worker.",
+    "Preserved uncertainty on the exact shelving level because the study text is internally mixed: the main narrative says the item was on a pallet not yet shelved, while the observer note summarizes it as a mis-shelved item.",
+    "Reviewed F13 against source text and kept the issue narrowly tied to order 2's double-box instruction being absent from the pick list.",
+    "Confirmed activity linkage to A35 only; the special-handling rework occurs during the Day 1 packing block.",
+    "Preserved the medium severity and did not infer broader process failures beyond the documented pick-list omission.",
+    "Confirmed F14 is grounded in the source and kept the issue narrowly focused on stale inventory data causing Nadia's verification detour.",
+    "Retained A33 and A36 as the evidence-backed linked activities; no additional activities are supported for this cluster.",
+    "Strengthened the likely cause to real-time synchronization failure rather than a broader warehouse-process claim.",
+    "Added explicit evidence for both the stale system quantity and the physical verification detour.",
+    "Reviewed F15 against the source and kept it narrowly tied to the documented same-destination consolidation opportunity at loading time.",
+    "Kept worker linkage limited to the two workers explicitly involved in the observed decision: Bobby raised the issue during loading, and Nadia declined consolidation based on the pick-list workflow.",
+    "No additional activities beyond A37 are supported for this flag.",
+    "Removed A40 and A46/A47 from the flag linkage because the source does not tie David's calibration review or Bobby/Aisha's receiving work directly to the pre-shift staging benefit cluster.",
+    "Kept the flag narrowly focused on the documented pre-shift preparation actions for James, Bobby, and Luis; did not broaden it to general morning efficiency improvements.",
+    "Confirmed the issue remains a low-severity benefit flag rather than a waste/inefficiency claim.",
+    "Confirmed F17 is grounded in the source and kept the linkage to a single activity, A49.",
+    "Tightened the description to reflect a brief ad hoc sorting assist rather than a broader Station 3 workflow takeover.",
+    "Added the explicit 5-minute undo/recheck impact from Priya's correction.",
+    "Preserved Robert Kim's forklift classification; no additional role linkage is supported beyond the documented brief crossover.",
+    "Confirmed F18 is grounded in the source and kept the flag to the documented inspection-gap cluster only.",
+    "Tightened the description to preserve the 35-minute reassignment and the documented downstream passage of uninspected boards.",
+    "Adjusted the likely cause to match the source's explicit traceability gap and lack of backup coverage without overstating process ownership details.",
+    "Reviewed F19 against the source and kept it as a low-severity efficiency flag grounded only in Priya's documented self-service fetch on Day 2.",
+    "Preserved the 10-minute activity duration as documented; the source explicitly states a 5-minute round trip plus 5 minutes of boards waiting in the transfer bin.",
+    "Tightened the description and recommendation to avoid overstating broader process failure beyond the brief handoff delay and queue buildup."
+  ]
+}
